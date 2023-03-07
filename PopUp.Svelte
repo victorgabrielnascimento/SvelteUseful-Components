@@ -29,7 +29,7 @@
       <p>Você realmente deseja excluir o dispositivo?</p>
 
       <p>[Name]</p>
-      <div class="pai2">
+      <div class="button-wrapper">
         <button><h1>DESATIVAR</h1></button>
       </div>
     </div>
@@ -48,11 +48,6 @@
     width: 6%;
     margin-left: 47%;
     margin-top: 20%;
-  }
-
-  .pai2 {
-    background-color: rebeccapurple;
-    width: 40%;
   }
 
   .trash {
@@ -78,7 +73,7 @@
   }
 
   .popup {
-    width: 50%;
+    width: 70%;
     height: 40%;
     margin: 16% auto;
     padding: 60px;
@@ -94,13 +89,14 @@
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
-    line-height: 65px;
+    line-height: 50%;
+    font-size: 180%;
   }
 
   .popup-content p {
     text-align: center;
     font-family: "Montserrat";
-    font-size: 28px;
+    font-size: 180%;
   }
 
   button {
@@ -113,15 +109,19 @@
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    margin-left: 14%;
   }
 
   button h1 {
     font-family: "Montserrat";
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 100%;
     color: white;
     padding-top: 4%;
+  }
+
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
   }
 
   .popup-close {
